@@ -1,2 +1,2 @@
 # RancherWebApp
-Web Application to test Windocks QL Proxy in Rancher
+Web Application to test Windocks SQL Proxy in Rancher

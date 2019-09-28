@@ -4,6 +4,8 @@
 
 replicaCount: 1
 nameOverride: windocks-dotnetapp
+sqlserverHost: "windocks,3087"
+sqlserverPassword: "Pa55word!!"
 
 image:
   repository: windocks/windocks-redis-demo-dotnetapp

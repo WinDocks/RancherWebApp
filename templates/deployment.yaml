@@ -15,7 +15,7 @@ spec:
           name: dotnetapp
           ports:
             - containerPort: {{ .Values.webapp.port }}
-           env:
+          env:
             - name: SQLSERVER_HOST
               value: {{ .Values.sqlserverHost }}
             - name: SQLSERVER_SA_PASSWORD
